@@ -87,11 +87,7 @@ const App = () => {
   return (
     <div>
       <h1 className="title">BD Store</h1>
-      <Products productsList={
-        for (let i=0; i < products.length; i++){
-          products[i]
-        }
-      } />
+      <Products />
     </div>
   );
 };
